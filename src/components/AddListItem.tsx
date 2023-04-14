@@ -4,7 +4,7 @@ import {
 } from "react";
 
 import { Button } from "./Button";
-import { ListItem } from "../types";
+import { type ListItem } from "../types";
 
 export interface AddListItemProps {
   readonly addListItem: (listItem: ListItem) => void;
