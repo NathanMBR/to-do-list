@@ -3,7 +3,7 @@ import {
   useState
 } from "react";
 
-import { ListItem } from "../types";
+import { type ListItem } from "../types";
 
 export const useListItems = () => {
   const [listItems, setListItems] = useState<Array<ListItem> | null>(null);
